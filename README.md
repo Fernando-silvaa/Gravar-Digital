@@ -1,5 +1,5 @@
 <h1>Gravar Digital</h1>
-<p>O projeto Gravar Digital existe graças a um grande amigo João proprietário desse empreendimento que me autorizou fazer um site de sua loja para usar em meu portifólio. A Gravar Digital é uma gráfica com muitas opções de presente entre canecas, camisas, impressos, carimbos, placas, kit para os namorados. Enviando para qualquer parte do Brasil você pode personalizar cada item da loja. Com opções de fazer um orçamento via email, telefone ou qualquer dúvida pode mandar mensagem pelo whatsApp para melhores esclarecimento. </p>
+<p>O projeto Gravar Digital existe graças a um grande amigo João proprietário desse empreendimento que me autorizou fazer um site de sua loja para usar em meu portifólio. Buscando uma API feito por mim a Gravar Digital é uma gráfica com muitas opções de presente entre canecas, camisas, impressos, carimbos, placas, kit para os namorados. Enviando para qualquer parte do Brasil você pode personalizar cada item da loja. Com opções de fazer um orçamento via email, telefone ou qualquer dúvida pode mandar mensagem pelo whatsApp para melhores esclarecimento. </p>
 
 <h2>🖥️ Layout para desktop</h2>
 
