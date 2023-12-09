@@ -44,8 +44,8 @@
     background-color: var(--bg-azul);
     padding: 1em;
     width: 50%;
-    height: 100vw;
-    position: absolute;
+    height: 100%;
+    position: fixed;
     top: 0;
     left: -200vh;
     transition: .6s;
