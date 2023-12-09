@@ -27,4 +27,4 @@
 
 <p>✅ Acessibilidade: Foi dada especial atenção à acessibilidade, garantindo que o site seja utilizável por todos os públicos, independentemente de suas habilidades.</p>
 
-<a href="#" style="background-color: grey; color: black; padding: 1rem; border-radius: 10px">Ver projeto</a>
+<a href="https://gravar-digital.vercel.app/" style="background-color: grey; color: black; padding: 1rem; border-radius: 10px">Ver projeto</a>
