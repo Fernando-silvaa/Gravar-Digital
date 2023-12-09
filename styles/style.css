@@ -1,7 +1,7 @@
-/* @import url("_cabecalho.css");
+@import url("_cabecalho.css");
 @import url("_busca.css");
 @import url("_produtos.css");
-@import url("_rodape.css"); */
+@import url("_rodape.css");
 
 :root {
     --fonte-principal: 'Montserrat', sans-serif;
