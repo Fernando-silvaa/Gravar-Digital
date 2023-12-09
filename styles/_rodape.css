@@ -1,0 +1,130 @@
+.rodape {
+    background-color: var(--bg-azul);
+    padding: 2rem 2rem 0 2rem;
+}
+
+.rodape__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rodape__lista-item a {
+    text-decoration: none;
+    color: var(--texto-branco);
+}
+
+.rodape__lista-item a:hover {
+    background-color: var(--bg-hover);
+    color: var(--texto-preto);
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.rodape__lista-item {
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.lista-titulo, .rodape__novidade-titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--texto-laranja);
+    margin: 2rem 0;
+}
+
+.lista__item {
+    font-weight: 700;
+    color: var(--texto-branco);
+}
+
+.icones a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8rem;
+}
+
+.icone {
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.lista-texto {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--texto-branco);
+}
+
+.rodape__novidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape__novidade-input {
+    width: 300px;
+    padding: 0.7rem;
+    margin: 0.3rem;
+    font-family: var(--fonte-principal);
+    color: var(--texto-preto);
+    border: none;
+}
+
+.rodape__novidades-btn {
+    width: 100px;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    padding: 0.5rem;
+    background-color: var(--bg-laranja);
+    color: var(--texto-branco);
+    border: none;
+    cursor: pointer;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+}
+
+.bandeira-cartao {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 40px;
+}
+
+.pix {
+    width: 60px;
+}
+
+.direitos {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    color: rgba(241, 233, 233, 0.856);
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+    .rodape__lista {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+
+    .rodape__lista-item {
+        margin: 0;
+    }
+
+    .rodape__lista-itens {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+    }
+}

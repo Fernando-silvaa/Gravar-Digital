@@ -1,0 +1,178 @@
+.cabecalho {
+    display: none;
+}
+
+.lista {
+    display: none;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1em;
+}
+
+.cabecalho__menu {
+    width: 30px;
+    cursor: pointer;
+}
+
+.cabecalho__compras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrinho {
+    width: 2rem;
+}
+
+.cabecalho__compras-carrinho {
+    display: none;
+    font-weight: 700;
+}
+
+.cabecalho__logo {
+    width: 3.5rem;
+}
+
+.cabecalho__lista {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: var(--bg-azul);
+    padding: 1em;
+    width: 50%;
+    height: 100vw;
+    position: absolute;
+    top: 0;
+    left: -200vh;
+    transition: .6s;
+}
+
+.ativo {
+    left: 0;
+    transition: .6s;
+}
+
+.cabecalho__lista-X {
+    width: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+}
+
+.cabecalho__lista-item {
+    background-color: transparent;
+    border: none;
+    color: var(--texto-branco);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.cabecalho__lista-item:hover {
+    background-color: var(--bg-hover);
+    color: var(--texto-azul);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.cabecalho__pesquisar {
+    display: none;
+}
+
+.cabecalho_text {
+    display: none;
+}
+
+.cabecalho__midias {
+    display: none;
+}
+
+.cabecalho__orcamento {
+    display: none;
+}
+
+@media screen and (min-width: 640px) {
+    .menu {
+        display: none;
+    }
+
+    .cabecalho__menu, .ativo, .cabecalho__lista {
+        display: none;
+    }
+
+    .cabecalho {
+        justify-content: space-around;
+    }
+
+    .cabecalho__logo {
+        right: -100vh;
+        width: 4.5rem;
+    }
+
+    .cabecalho__pesquisar {
+        display: block;
+        width: 40%;
+        max-width: 400px;
+        text-align: center;
+        padding: 0.5em;
+        border: 2px solid black;
+        border-radius: 18px;
+    }
+    
+    .cabecalho__pesquisar::placeholder {
+        padding: 1rem;
+        font-family: var(--fonte-principal);
+        font-weight: 500;
+        background: url(../img/lupa_preta.svg) no-repeat;
+        background-position: 1em;
+        background-size: 1.5em;
+    }
+
+    .cabecalho__orcamento {
+        display: block;
+    }
+
+    .cabecalho__orcamento a {
+        text-decoration: none;
+        color: var(--texto-preto);
+    }
+
+    .cabecalho__text {
+        font-weight: 700;
+    }
+
+    .cabecalho__text:hover {
+        background-color: var(--bg-hover);
+        color: var(--texto-azul);
+        padding: 1rem;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .cabecalho__midias {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .cabecalho__compras span {
+        display: flex;
+        color: var(--texto-azul);
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .midias {
+        width: 30px;
+        font-size: 2rem;
+    }
+
+    .midias:hover {
+        scale: 1.3;
+    }
+}

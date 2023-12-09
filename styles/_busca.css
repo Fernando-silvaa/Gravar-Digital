@@ -1,0 +1,38 @@
+.busca {
+    display: none;
+}
+
+
+@media screen and (min-width: 640px) {
+    .busca {
+        display: flex;
+    }
+
+    .busca__lista {
+        width: 100%;
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0.3rem 0.5rem;
+        background-color: var(--bg-azul);
+    }
+
+    .busca__lista-item {
+        font-family: var(--fonte-principal);
+        border: none;
+        background: none;
+        color: var(--texto-branco);
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    .busca__lista-item:hover {
+        background-color: var(--bg-hover);
+        color: var(--bg-azul);
+        border-radius: 10px;
+        /* padding: 0.5rem; */
+    }
+}
